@@ -1,6 +1,7 @@
 package factoryPattern;
 
 public class PetRecord {
+
     private String petId;
     private String petName;
     private Pet pet;
@@ -28,4 +29,5 @@ public class PetRecord {
     public void setPet(Pet pet) {
         this.pet = pet;
     }
+
 }
